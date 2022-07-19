@@ -32,7 +32,7 @@ public class DevOps extends Technologist{
 		System.out.println("Devops study Terraform");
 	}
 }
-
+//well
 class Test{
 	public static void main (String[] args){
 	//creating object devOps of Technologist class
