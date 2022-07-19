@@ -1,24 +1,38 @@
 package tech_strategio_helloworldsim3;
 
-class Technologist {
+public class Technologist {
 	String firstName;
 	String lastName;
 
-	//constructor
-	Technologist(){
-		firstName = "";
+	private String firstName;
+	protected String company = "Strategio";
+	public void study() {
+		System.out.println("I am Studying!");
+		System.out.println("Technologiest study generic things");
 	}
-	void setFirstName (String n){
-		String name = n;
-	}
-	void getFirstName (String n){
-		return;
-	}
+
 	public String getFirstName() {
-		// TODO Auto-generated method stub
-		return null;
+		return firstName;
+	}
+	public String setFirstName (String n){
+		This.firstName = newFirstName;
+
+	}
+	
+}
+
+public class SRE extends Technologist{
+	public void study() {
+		System.out.println("SRE study choas engineering");
 	}
 }
+
+public class DevOps extends Technologist{
+	public void study() {
+		System.out.println("Devops study Terraform");
+	}
+}
+
 class Test{
 	public static void main (String[] args){
 	//creating object devOps of Technologist class
