@@ -12,7 +12,7 @@ public class PracticeAL {
 		
 		Collections.sort(cars);
 		for(String i : cars) {
-			System.out.println(i);
+			System.out.print(i);
 		}
 		
 		System.out.println(cars.get(0));
@@ -21,7 +21,8 @@ public class PracticeAL {
 		System.out.println(cars);
 		
 		System.out.println(cars.remove(0));
-		System.out.println(cars);
+		System.out.println(cars); 
+		//7/20/2022
 		
 	}
 }
